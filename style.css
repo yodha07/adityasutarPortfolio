@@ -144,6 +144,13 @@ html {
     }
 }
 
+@media (max-width: 1200px){
+    .work1, .work2{
+        height: 50vh;
+        font-size: 2rem
+    }
+}
+
 /* General Styles */
 .playlist_wrapper {
     display: grid;
