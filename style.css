@@ -115,6 +115,13 @@ html {
 }
 
 /* Responsive styles */
+@media (max-width: 1200px){
+    .work1, .work2{
+        height: 50vh;
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 768px) {
     .work1, .work2 {
         font-size: 1.45rem;
