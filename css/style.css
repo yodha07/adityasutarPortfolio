@@ -8,11 +8,6 @@
     padding: 0;
 }
 
-
-body{
-    min-width: 420px;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -114,64 +109,6 @@ html {
         'footer empty';
 }
 
-/* Responsive styles */
-
-@media (max-width: 999px){
-    .work1, .work2{
-        height: 50vh;
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 660px) {
-    .work1, .work2 {
-        font-size: 1.45rem;
-        width: 100%;
-        height: auto;
-    }
-
-    .work1 img {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .intro {
-        font-size: 1.6rem;
-        padding-left: 15px;
-    }
-
-    .vanessa {
-        display: grid;
-        grid-template-columns: 2fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-            'playlist'
-            'resume'
-            'empty'
-            'footer';
-    }
-    
-    .container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 7dvh 7dvh;
-        grid-template-areas:
-            'header'
-            'header2';
-    }
-
-    ul {
-        padding-left: 2.5%;
-    }
-
-    .nav_links{
-        padding-left: 2.5%;
-    }
-
-    .playlist_wrapper {
-        grid-template-columns: 1fr;
-        padding-left: 2.5%;
-    }
-}
 
 /* General Styles */
 .playlist_wrapper {
@@ -357,4 +294,62 @@ figure img {
 
 footer {
     text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 660px) {
+    .work1, .work2 {
+        font-size: 1.45rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .work1 img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .intro {
+        font-size: 1.6rem;
+        padding-left: 15px;
+    }
+
+    .vanessa {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            'playlist'
+            'resume'
+            'empty'
+            'footer';
+    }
+    
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 7dvh 7dvh;
+        grid-template-areas:
+            'header'
+            'header2';
+    }
+
+    ul {
+        padding-left: 2.5%;
+    }
+
+    .nav_links{
+        padding-left: 2.5%;
+    }
+
+    .playlist_wrapper {
+        grid-template-columns: 1fr;
+        padding-left: 2.5%;
+    }
+}
+
+@media (max-width: 999px){
+    .work1, .work2{
+        height: 50vh;
+        font-size: 2rem;
+    }
 }
