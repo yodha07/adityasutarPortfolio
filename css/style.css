@@ -139,6 +139,7 @@ footer {
     text-align: center;
     align-content: center;
     font-size: clamp(2rem, 2rem, 4rem);
+    font-weight: 555;
 }
 
 .playlist {
