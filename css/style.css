@@ -100,7 +100,6 @@ html {
 }
 
 .vanessa {
-    font-family: "Playfair Display", serif;
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 25dvh 25dvh 25dvh;
@@ -135,6 +134,7 @@ footer {
 }
 
 .playlist, .resume, .projects {
+    font-family: "Playfair Display", serif;
     width: 100%;
     text-align: center;
     align-content: center;
@@ -345,4 +345,10 @@ footer {
         height: 50vh;
         font-size: 2rem;
     }
+}
+
+.heading{
+    font-family: "Playfair Display", serif;
+    color: inherit;
+    background-color: inherit;
 }
