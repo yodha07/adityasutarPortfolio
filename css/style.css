@@ -54,8 +54,8 @@ html {
 }
 
 .work2 {
-    background-color:#FFF2D7;
-    color: #F98866;
+    background-color:#F98866 ;
+    color: #FFF2D7;
 }
 
 .work1 div, .work2 div {
@@ -73,9 +73,9 @@ html {
 }
 
 .work2:hover {
-    background-color: #F98866;
-    color: #FFF2D7;
-    border-color: #FFF2D7;
+    background-color: #FFF2D7;
+    color: #F98866;
+    border-color:  #F98866;
     transition: 0.2s;
 }
 
@@ -113,13 +113,13 @@ html {
 /* General Styles */
 .playlist_wrapper {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     grid-template-areas: 'empty main';
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     grid-template-rows: 100px;
     grid-template-areas: 'header header2';
 }
