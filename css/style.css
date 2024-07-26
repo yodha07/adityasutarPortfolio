@@ -325,7 +325,7 @@ footer {
     
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 7dvh 7dvh;
+        grid-template-rows: 15dvh 15dvh;
         grid-template-areas:
             'header'
             'header2';
