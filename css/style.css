@@ -194,7 +194,7 @@ footer {
     background-color: transparent;
     color: white;
     padding-left: 2.5%;
-    margin-top: 5%;
+    align-content: center;
 }
 
 .aditya_sutar {
@@ -214,6 +214,8 @@ h3:hover {
 
 .item2 {
     grid-area: header2;
+    text-align: start;
+    align-content: center;
 }
 
 .item3 {
@@ -231,7 +233,6 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 5%;
 }
 
 .nav_links {
@@ -325,7 +326,7 @@ footer {
     
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 15dvh 15dvh;
+        grid-template-rows: 6vh 10vh;
         grid-template-areas:
             'header'
             'header2';
