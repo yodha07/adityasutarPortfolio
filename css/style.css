@@ -12,7 +12,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.intro, .work1, .work2, .projects {
+.intro, .work1, .work2{
     font-size: clamp(1.5rem, 8vmin, 3.5rem);
     letter-spacing: -2px;
     color: white;
