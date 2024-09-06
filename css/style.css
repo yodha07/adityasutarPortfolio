@@ -79,7 +79,7 @@ html {
     transition: 0.2s;
 }
 
-.work1 img, .work2 img {
+.work1 img {
     width: 100%;
     display: block;
     position: relative;
@@ -353,4 +353,20 @@ footer {
     font-family: "Playfair Display", serif;
     color: inherit;
     background-color: inherit;
+    width: inherit;
+    text-align: center;
+    align-content: center;
+}
+
+
+.hover-text {
+    display: none;
+}
+  
+.work2:hover .hover-text1 {
+    display: none;
+}
+  
+.work2:hover .hover-text {
+    display: block;
 }
