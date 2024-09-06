@@ -117,6 +117,12 @@ html {
     grid-template-areas: 'empty main';
 }
 
+.project_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-areas: 'empty main';
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
@@ -337,6 +343,11 @@ footer {
     }
 
     .playlist_wrapper {
+        grid-template-columns: 1fr;
+        padding-left: 2.5%;
+    }
+
+    .project_wrapper {
         grid-template-columns: 1fr;
         padding-left: 2.5%;
     }
