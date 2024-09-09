@@ -123,6 +123,17 @@ html {
     grid-template-areas: 'empty main';
 }
 
+.project1{
+    height: 50dvh;
+}
+
+.project1 img{
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: transparent;
+}
+
 .project_showcase{
     grid-area: main;
 }
@@ -130,7 +141,7 @@ html {
 .container {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
-    grid-template-rows: 100px;
+    grid-template-rows: 50px;
     grid-template-areas: 'header header2';
 }
 
@@ -275,7 +286,7 @@ li {
 }
 
 h3, p {
-    padding-left: 0;
+    padding-left: 5px;
 }
 
 figure {
@@ -306,9 +317,16 @@ figure img {
     font-size: larger;
 }
 
+.red_asterisk{
+    font-family: "Playfair Display";
+    font-size: larger;
+    color: rgb(255, 0, 0);
+}
+
 footer {
     text-align: center;
 }
+
 
 /* Responsive styles */
 @media (max-width: 660px) {
