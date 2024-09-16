@@ -123,11 +123,7 @@ html {
     grid-template-areas: 'empty main';
 }
 
-.project1{
-    height: 50dvh;
-}
-
-.project1 img{
+.project1 img, .project2 img{
     width: 100%;
     display: block;
     position: relative;
@@ -246,8 +242,6 @@ h3:hover {
 h1 {
     font-family: "Playfair Display", serif;
     font-size: clamp(2.5rem, 2rem, 6rem);
-    margin-bottom: 5%;
-    margin-top: 1%;
 }
 
 ul {
@@ -319,7 +313,6 @@ figure img {
 
 .red_asterisk{
     font-family: "Playfair Display";
-    font-size: larger;
     color: rgb(255, 0, 0);
 }
 
