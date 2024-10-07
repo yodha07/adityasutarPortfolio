@@ -345,7 +345,7 @@ footer {
     .vanessa {
         display: grid;
         grid-template-columns: 2fr;
-        grid-template-rows: 2fr 2fr 2fr 1fr;
+        grid-template-rows: 3fr 3fr 3fr 1fr;
         grid-template-areas:
             'playlist'
             'resume'
