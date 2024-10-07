@@ -335,14 +335,17 @@ footer {
     }
 
     .intro {
-        font-size: 1.6rem;
         padding-left: 15px;
+    }
+
+    .intro p{
+        font-size: 2rem;
     }
 
     .vanessa {
         display: grid;
         grid-template-columns: 2fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 2fr 2fr 2fr 1fr;
         grid-template-areas:
             'playlist'
             'resume'
